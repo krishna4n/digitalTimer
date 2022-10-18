@@ -1,0 +1,104 @@
+/* Write your CSS here */
+.container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.timer-image {
+  height: 500px;
+  width: 600px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.time-count-bg {
+  background-color: #ffffff;
+  height: 170px;
+  width: 170px;
+  border-radius: 100px;
+  margin-left: 30px;
+  margin-top: 35px;
+  text-align: center;
+}
+.timer-status {
+  font-size: 18px;
+  color: #000000;
+  font-weight: bold;
+}
+.timer {
+  color: #00d9f5;
+  font-size: 36px;
+  font-weight: bold;
+  align-self: center;
+}
+.timer-controls {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.start-container {
+  display: flex;
+  margin-right: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+.reset-container {
+  display: flex;
+  font-size: 28px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.start-reset-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.limit {
+  font-size: 26px;
+  font-weight: bold;
+}
+.limit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.limit-number {
+  padding-bottom: 1px;
+  text-align: center;
+  width: 80px;
+  height: 34px;
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.limit-controls {
+  text-align: center;
+}
+.button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
